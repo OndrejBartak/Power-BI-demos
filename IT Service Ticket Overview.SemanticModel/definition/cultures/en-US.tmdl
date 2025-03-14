@@ -1,0 +1,3610 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "data_table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataTable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataTable": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "information table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "data tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "data bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "data board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "data_table.interaction_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataTable",
+			          "ConceptualProperty": "Interaction ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "interaction ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "interaction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "interaction identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "interaction identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "interaction identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "interaction credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "collaboration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "interface": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "data_table.interaction_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataTable",
+			          "ConceptualProperty": "Interaction Type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "interaction type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "interaction category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "interaction genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "interaction manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "interaction variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "interaction brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "interaction class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "interaction kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "data_table.date_received": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataTable",
+			          "ConceptualProperty": "Date Received"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date received": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "data_table.date_resolved": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataTable",
+			          "ConceptualProperty": "Date Resolved"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date resolved": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment resolved": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period resolved": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "data_table.category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataTable",
+			          "ConceptualProperty": "Category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "data_table.resolution_time": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataTable",
+			          "ConceptualProperty": "Resolution Time (Days)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resolution time": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "resolution time (Days)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "resolution time (Day)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "resolution duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "resolution interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "resolution moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "resolution period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "resolution timetable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "resolution duration (day)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "resolution interval (day)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "resolution moment (day)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "resolution period (day)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "resolution timetable (day)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "day"
+			      ]
+			    },
+			    "data_table.SLA_threshold": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataTable",
+			          "ConceptualProperty": "SLA Threshold (Days)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "SLA threshold": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SLA threshold (Days)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SLA threshold (Day)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "threshold": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sla brink": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sla onset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sla inception": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "brink": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "onset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "inception": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sla verge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sla edge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sla dawn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sla beginning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "day"
+			      ]
+			    },
+			    "data_table.within_SLA": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataTable",
+			          "ConceptualProperty": "Within SLA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "within SLA": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SLA": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_table.driver": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DataTable",
+			          "ConceptualProperty": "Driver"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "driver": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "motorist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "chauffeur": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "teamster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "carter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "charioteer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "trainer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "date auto template": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DateAutoTemplate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "template": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "auto template": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "moment auto template": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period auto template": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "date auto cutout": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "auto cutout": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "date auto pattern": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "date auto master": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "date auto stencil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "date auto model": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "date auto prototype": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "date auto original": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_auto_template.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_auto_template.year_quarter_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Year Quarter Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year quarter number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter number": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "year quarter no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "quarter no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "year qtr number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.677
+			          }
+			        },
+			        {
+			          "qtr number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.667
+			          }
+			        },
+			        {
+			          "yr quarter number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.year_quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Year Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "yr quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.year_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Year Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.year_month_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Year Month Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year month number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month number": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "year month no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "month no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "yr month number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year mth number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "mth number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.month_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Month Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "month number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.day_of_week_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Day of Week Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "day of week number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day of week no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.day_of_week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "Day of Week"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "day of week": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.date_with_transactions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "ConceptualProperty": "DateWithTransactions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "date with transactions": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date with transaction": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "DateWithTransactions": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "moment with transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "period with transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "date_auto_template.calendar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "Hierarchy": "Calendar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "calendar": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "almanac": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "datebook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "agenda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "logbook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "diary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "schedule": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "timetable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_auto_template.calendar.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "Hierarchy": "Calendar",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_auto_template.calendar.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "Hierarchy": "Calendar",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_auto_template.calendar.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DateAutoTemplate",
+			          "Hierarchy": "Calendar",
+			          "HierarchyLevel": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "employeetable.column_1_current_headcount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmployeeTable",
+			          "ConceptualProperty": "_1 Current Headcount"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "employeetable.column_2_current_salary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmployeeTable",
+			          "ConceptualProperty": "_2 Current Salary"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "employeetable.column_3_current_hires": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmployeeTable",
+			          "ConceptualProperty": "_3 Current Hires"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "employeetable.column_4_current_terminations": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmployeeTable",
+			          "ConceptualProperty": "_4 Current Terminations"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "employeetable.column_5_current_hire_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmployeeTable",
+			          "ConceptualProperty": "_5 Current Hire Rate"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "employeetable.column_6_current_termination_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EmployeeTable",
+			          "ConceptualProperty": "_6 Current Termination Rate"
+			        }
+			      },
+			      "State": "Generated"
+			    }
+			  },
+			  "Relationships": {
+			    "data_table_driver_drive_data_table": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table.driver": {
+			          "Target": {
+			            "Entity": "data_table.driver"
+			          }
+			        },
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "data_table.driver"
+			            },
+			            "Verbs": [
+			              {
+			                "drive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "drivers_drive_data_tables"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table.driver"
+			            },
+			            "Object": {
+			              "Role": "data_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "drivers_have_data_tables"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.driver"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have_drivers"
+			        }
+			      ]
+			    },
+			    "data_table_is_received_on_date_received": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.date_received": {
+			          "Target": {
+			            "Entity": "data_table.date_received"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "data_table.date_received"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "receive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "data_tables_are_received_on_date_received"
+			        }
+			      ]
+			    },
+			    "data_table_is_resolved_on_date_resolved": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.date_resolved": {
+			          "Target": {
+			            "Entity": "data_table.date_resolved"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "data_table.date_resolved"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "resolve": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "data_tables_are_resolved_on_date_resolved"
+			        }
+			      ]
+			    },
+			    "data_table_has_interaction_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.interaction_ID": {
+			          "Target": {
+			            "Entity": "data_table.interaction_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.interaction_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have_interaction_ID"
+			        }
+			      ]
+			    },
+			    "data_table_has_interaction_type": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.interaction_type": {
+			          "Target": {
+			            "Entity": "data_table.interaction_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.interaction_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have_interaction_types"
+			        }
+			      ]
+			    },
+			    "data_table_has_date_received": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.date_received": {
+			          "Target": {
+			            "Entity": "data_table.date_received"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.date_received"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have_date_received"
+			        }
+			      ]
+			    },
+			    "data_table_has_date_resolved": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.date_resolved": {
+			          "Target": {
+			            "Entity": "data_table.date_resolved"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.date_resolved"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have_date_resolved"
+			        }
+			      ]
+			    },
+			    "data_table_has_category": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.category": {
+			          "Target": {
+			            "Entity": "data_table.category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have_categories"
+			        }
+			      ]
+			    },
+			    "data_table_has_resolution_time": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.resolution_time": {
+			          "Target": {
+			            "Entity": "data_table.resolution_time"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.resolution_time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have_resolution_times"
+			        }
+			      ]
+			    },
+			    "data_table_has_SLA_threshold": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.SLA_threshold": {
+			          "Target": {
+			            "Entity": "data_table.SLA_threshold"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.SLA_threshold"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have_SLA_thresholds"
+			        }
+			      ]
+			    },
+			    "data_table_has_within_SLA": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.within_SLA": {
+			          "Target": {
+			            "Entity": "data_table.within_SLA"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.within_SLA"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have_within_SLA"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Prepositions": [
+			              {
+			                "within": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data_table.within_SLA"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_are_within_within_SLA"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Total_Interactions_total_interactions": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Total_Interactions_total_interactions": {
+			          "Target": {
+			            "Entity": "data_table.v_Total_Interactions_total_interactions"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Total_Interactions_total_interactions"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__total_interactions"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Total_Calls_total_calls": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Total_Calls_total_calls": {
+			          "Target": {
+			            "Entity": "data_table.v_Total_Calls_total_calls"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Total_Calls_total_calls"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__total_calls"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Total_Chats_total_chats": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Total_Chats_total_chats": {
+			          "Target": {
+			            "Entity": "data_table.v_Total_Chats_total_chats"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Total_Chats_total_chats"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__total_chats"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Total_Emails_total_emails": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Total_Emails_total_emails": {
+			          "Target": {
+			            "Entity": "data_table.v_Total_Emails_total_emails"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Total_Emails_total_emails"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__total_emails"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Total_Escalations_total_escalations": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Total_Escalations_total_escalations": {
+			          "Target": {
+			            "Entity": "data_table.v_Total_Escalations_total_escalations"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Total_Escalations_total_escalations"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__total_escalations"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Avg_Resolution_Time_avg_resolution_time": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Avg_Resolution_Time_avg_resolution_time": {
+			          "Target": {
+			            "Entity": "data_table.v_Avg_Resolution_Time_avg_resolution_time"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Avg_Resolution_Time_avg_resolution_time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__avg_resolution_time"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Avg_Resolution_Time_Calls_avg_resolution_time_calls": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Avg_Resolution_Time_Calls_avg_resolution_time_calls": {
+			          "Target": {
+			            "Entity": "data_table.v_Avg_Resolution_Time_Calls_avg_resolution_time_calls"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Avg_Resolution_Time_Calls_avg_resolution_time_calls"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__avg_resolution_time_calls"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Avg_Resolution_Time_Chats_avg_resolution_time_chats": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Avg_Resolution_Time_Chats_avg_resolution_time_chats": {
+			          "Target": {
+			            "Entity": "data_table.v_Avg_Resolution_Time_Chats_avg_resolution_time_chats"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Avg_Resolution_Time_Chats_avg_resolution_time_chats"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__avg_resolution_time_chats"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Avg_Resolution_Time_Emails_avg_resolution_time_emails": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Avg_Resolution_Time_Emails_avg_resolution_time_emails": {
+			          "Target": {
+			            "Entity": "data_table.v_Avg_Resolution_Time_Emails_avg_resolution_time_emails"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Avg_Resolution_Time_Emails_avg_resolution_time_emails"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__avg_resolution_time_emails"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Avg_Resolution_Time_Escalations_avg_resolution_time_escalations": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Avg_Resolution_Time_Escalations_avg_resolution_time_escalations": {
+			          "Target": {
+			            "Entity": "data_table.v_Avg_Resolution_Time_Escalations_avg_resolution_time_escalations"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Avg_Resolution_Time_Escalations_avg_resolution_time_escalations"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__avg_resolution_time_escalations"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Within_SLA_Count_within_SLA_count": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Within_SLA_Count_within_SLA_count": {
+			          "Target": {
+			            "Entity": "data_table.v_Within_SLA_Count_within_SLA_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Within_SLA_Count_within_SLA_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__within_SLA_count"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_SLA_Compliance___SLA_compliance_": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_SLA_Compliance___SLA_compliance_": {
+			          "Target": {
+			            "Entity": "data_table.v_SLA_Compliance___SLA_compliance_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_SLA_Compliance___SLA_compliance_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__SLA_compliance_"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_SLA_Compliance_Calls_SLA_compliance_calls": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_SLA_Compliance_Calls_SLA_compliance_calls": {
+			          "Target": {
+			            "Entity": "data_table.v_SLA_Compliance_Calls_SLA_compliance_calls"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_SLA_Compliance_Calls_SLA_compliance_calls"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__SLA_compliance_calls"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_SLA_Compliance_Chats_SLA_compliance_chats": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_SLA_Compliance_Chats_SLA_compliance_chats": {
+			          "Target": {
+			            "Entity": "data_table.v_SLA_Compliance_Chats_SLA_compliance_chats"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_SLA_Compliance_Chats_SLA_compliance_chats"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__SLA_compliance_chats"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_SLA_Compliance_Emails_SLA_compliance_emails": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_SLA_Compliance_Emails_SLA_compliance_emails": {
+			          "Target": {
+			            "Entity": "data_table.v_SLA_Compliance_Emails_SLA_compliance_emails"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_SLA_Compliance_Emails_SLA_compliance_emails"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__SLA_compliance_emails"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_SLA_Compliance_Escalations_SLA_compliance_escalations": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_SLA_Compliance_Escalations_SLA_compliance_escalations": {
+			          "Target": {
+			            "Entity": "data_table.v_SLA_Compliance_Escalations_SLA_compliance_escalations"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_SLA_Compliance_Escalations_SLA_compliance_escalations"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__SLA_compliance_escalations"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Driver_Rank_driver_rank": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Driver_Rank_driver_rank": {
+			          "Target": {
+			            "Entity": "data_table.v_Driver_Rank_driver_rank"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Driver_Rank_driver_rank"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__driver_rank"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Top_5_Drivers_top_5_drivers": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Top_5_Drivers_top_5_drivers": {
+			          "Target": {
+			            "Entity": "data_table.v_Top_5_Drivers_top_5_drivers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Top_5_Drivers_top_5_drivers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__top_5_drivers"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Avg_TAT_Escalations_avg_TAT_escalations": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Avg_TAT_Escalations_avg_TAT_escalations": {
+			          "Target": {
+			            "Entity": "data_table.v_Avg_TAT_Escalations_avg_TAT_escalations"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Avg_TAT_Escalations_avg_TAT_escalations"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__avg_TAT_escalations"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Total_Volume_by_Month_total_volume_by_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Total_Volume_by_Month_total_volume_by_month": {
+			          "Target": {
+			            "Entity": "data_table.v_Total_Volume_by_Month_total_volume_by_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Total_Volume_by_Month_total_volume_by_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__total_volume_by_month"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Calls_Volume_by_Month_calls_volume_by_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Calls_Volume_by_Month_calls_volume_by_month": {
+			          "Target": {
+			            "Entity": "data_table.v_Calls_Volume_by_Month_calls_volume_by_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Calls_Volume_by_Month_calls_volume_by_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__calls_volume_by_month"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Chats_Volume_by_Month_chats_volume_by_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Chats_Volume_by_Month_chats_volume_by_month": {
+			          "Target": {
+			            "Entity": "data_table.v_Chats_Volume_by_Month_chats_volume_by_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Chats_Volume_by_Month_chats_volume_by_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__chats_volume_by_month"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Emails_Volume_by_Month_emails_volume_by_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Emails_Volume_by_Month_emails_volume_by_month": {
+			          "Target": {
+			            "Entity": "data_table.v_Emails_Volume_by_Month_emails_volume_by_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Emails_Volume_by_Month_emails_volume_by_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__emails_volume_by_month"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Escalations_Volume_by_Month_escalations_volume_by_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Escalations_Volume_by_Month_escalations_volume_by_month": {
+			          "Target": {
+			            "Entity": "data_table.v_Escalations_Volume_by_Month_escalations_volume_by_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Escalations_Volume_by_Month_escalations_volume_by_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__escalations_volume_by_month"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Reference_Calls_reference_calls": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Reference_Calls_reference_calls": {
+			          "Target": {
+			            "Entity": "data_table.v_Reference_Calls_reference_calls"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Reference_Calls_reference_calls"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__reference_calls"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Total_Calls_PY_total_calls_PY": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Total_Calls_PY_total_calls_PY": {
+			          "Target": {
+			            "Entity": "data_table.v_Total_Calls_PY_total_calls_PY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Total_Calls_PY_total_calls_PY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__total_calls_PY"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Total_Chats_PY_total_chats_PY": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Total_Chats_PY_total_chats_PY": {
+			          "Target": {
+			            "Entity": "data_table.v_Total_Chats_PY_total_chats_PY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Total_Chats_PY_total_chats_PY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__total_chats_PY"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Total_Emails_PY_total_emails_PY": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Total_Emails_PY_total_emails_PY": {
+			          "Target": {
+			            "Entity": "data_table.v_Total_Emails_PY_total_emails_PY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Total_Emails_PY_total_emails_PY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__total_emails_PY"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Total_Escalations_PY_total_escalations_PY": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Total_Escalations_PY_total_escalations_PY": {
+			          "Target": {
+			            "Entity": "data_table.v_Total_Escalations_PY_total_escalations_PY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Total_Escalations_PY_total_escalations_PY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__total_escalations_PY"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Reference_Chats_reference_chats": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Reference_Chats_reference_chats": {
+			          "Target": {
+			            "Entity": "data_table.v_Reference_Chats_reference_chats"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Reference_Chats_reference_chats"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__reference_chats"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Reference_Emails_reference_emails": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Reference_Emails_reference_emails": {
+			          "Target": {
+			            "Entity": "data_table.v_Reference_Emails_reference_emails"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Reference_Emails_reference_emails"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__reference_emails"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Reference_Escalations_reference_escalations": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Reference_Escalations_reference_escalations": {
+			          "Target": {
+			            "Entity": "data_table.v_Reference_Escalations_reference_escalations"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Reference_Escalations_reference_escalations"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__reference_escalations"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Calls_Color_BG_calls_color_BG": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Calls_Color_BG_calls_color_BG": {
+			          "Target": {
+			            "Entity": "data_table.v_Calls_Color_BG_calls_color_BG"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Calls_Color_BG_calls_color_BG"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__calls_color_BG"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Calls_Color_Font_calls_color_font": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Calls_Color_Font_calls_color_font": {
+			          "Target": {
+			            "Entity": "data_table.v_Calls_Color_Font_calls_color_font"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Calls_Color_Font_calls_color_font"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__calls_color_font"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Chats_Color_BG_chats_color_BG": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Chats_Color_BG_chats_color_BG": {
+			          "Target": {
+			            "Entity": "data_table.v_Chats_Color_BG_chats_color_BG"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Chats_Color_BG_chats_color_BG"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__chats_color_BG"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Chats_Color_Font_chats_color_font": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Chats_Color_Font_chats_color_font": {
+			          "Target": {
+			            "Entity": "data_table.v_Chats_Color_Font_chats_color_font"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Chats_Color_Font_chats_color_font"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__chats_color_font"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Emails_Color_BG_emails_color_BG": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Emails_Color_BG_emails_color_BG": {
+			          "Target": {
+			            "Entity": "data_table.v_Emails_Color_BG_emails_color_BG"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Emails_Color_BG_emails_color_BG"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__emails_color_BG"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Emails_Color_Font_emails_color_font": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Emails_Color_Font_emails_color_font": {
+			          "Target": {
+			            "Entity": "data_table.v_Emails_Color_Font_emails_color_font"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Emails_Color_Font_emails_color_font"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__emails_color_font"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Escalations_Color_BG_escalations_color_BG": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Escalations_Color_BG_escalations_color_BG": {
+			          "Target": {
+			            "Entity": "data_table.v_Escalations_Color_BG_escalations_color_BG"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Escalations_Color_BG_escalations_color_BG"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__escalations_color_BG"
+			        }
+			      ]
+			    },
+			    "data_table_has_v_Escalations_Color_Font_escalations_color_font": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "data_table.v_Escalations_Color_Font_escalations_color_font": {
+			          "Target": {
+			            "Entity": "data_table.v_Escalations_Color_Font_escalations_color_font"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "data_table.v_Escalations_Color_Font_escalations_color_font"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have__escalations_color_font"
+			        }
+			      ]
+			    },
+			    "data_table_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "DataTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_table": {
+			          "Target": {
+			            "Entity": "data_table"
+			          }
+			        },
+			        "date": {
+			          "Target": {
+			            "Entity": "date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_table"
+			            },
+			            "Object": {
+			              "Role": "date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_tables_have_dates"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date"
+			            },
+			            "Object": {
+			              "Role": "data_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_data_tables"
+			        }
+			      ]
+			    },
+			    "date_auto_template_calendar_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "DateAutoTemplate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_auto_template.calendar": {
+			          "Target": {
+			            "Entity": "date_auto_template.calendar"
+			          }
+			        },
+			        "date_auto_template.calendar.year": {
+			          "Target": {
+			            "Entity": "date_auto_template.calendar.year"
+			          }
+			        }
+			      }
+			    },
+			    "date_auto_template_calendar_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DateAutoTemplate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_auto_template.calendar": {
+			          "Target": {
+			            "Entity": "date_auto_template.calendar"
+			          }
+			        },
+			        "date_auto_template.calendar.month": {
+			          "Target": {
+			            "Entity": "date_auto_template.calendar.month"
+			          }
+			        }
+			      }
+			    },
+			    "date_auto_template_calendar_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "DateAutoTemplate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_auto_template.calendar": {
+			          "Target": {
+			            "Entity": "date_auto_template.calendar"
+			          }
+			        },
+			        "date_auto_template.calendar.date": {
+			          "Target": {
+			            "Entity": "date_auto_template.calendar.date"
+			          }
+			        }
+			      }
+			    }
+			  }
+			}
+		contentType: json
+

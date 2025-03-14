@@ -1,0 +1,236 @@
+table DataTable
+	lineageTag: 9783b5bc-6b3e-45a0-912b-993dd5e70b81
+
+	measure '1_ Total Interactions' = COUNTROWS('DataTable')
+		formatString: 0
+		lineageTag: 0758b952-1247-4c37-8802-44b08215004c
+
+	measure '1_ Total Interactions PY' = CALCULATE([1_ Total Interactions], SAMEPERIODLASTYEAR('Date'[Date]))
+		formatString: 0
+		lineageTag: d87a4dd7-8ca2-434d-90de-4f814d972e58
+
+	measure '3_ Total Interactions Color BG' =
+			
+			VAR _Delta = [1_ Total Interactions] - [1_ Total Interactions PY]
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        _Delta > 0, "#E7F3F5",  -- Green for positive growth
+			        _Delta = 0, "FFFFFF00",  -- Transparent for no change
+			        _Delta < 0, "#F6EDED"   -- Red for negative growth
+			    )
+		lineageTag: a5e6dd4a-42b6-4584-825d-a5caf835dc44
+
+	measure '4_ Total Interactions Color Font' =
+			
+			VAR _Delta = [1_ Total Interactions] - [1_ Total Interactions PY]
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        _Delta > 0, "#038D96",  -- Green for positive growth
+			        _Delta = 0, "FFFFFF00",  -- Transparent for no change
+			        _Delta < 0, "#A84545"   -- Red for negative growth
+			    )
+		lineageTag: 9534d5ec-d31d-4bed-9f0f-f8179358b6bb
+
+	measure '3_ Total Interactions Reference' = ```
+			
+			var _Current = [1_ Total Interactions] 
+			var _LY = [1_ Total Interactions PY]
+			var _Growth = DIVIDE(_Current - _LY, _LY)
+			VAR NumOfDigits =
+			    IFERROR(
+			            LEN( 
+			                CONVERT( 
+			                        INT( 
+			                           _Current)
+			                        , STRING ))
+			            ,0)
+			VAR Suffix =
+			    ".0" &
+			    SWITCH(
+			        TRUE( ),
+			        NumOfDigits >= 13,  "T",
+			        NumOfDigits >= 10,  "B",
+			        NumOfDigits >= 7,   "M",
+			        NumOfDigits >= 4,   "K"
+			    )
+			VAR Commas =
+			    REPT(",",
+			        SWITCH(
+			            TRUE( ),
+			            NumOfDigits >= 13,  "4",
+			            NumOfDigits >= 10,  "3",
+			            NumOfDigits >= 7,   "2",
+			            NumOfDigits >= 4,   "1"
+			        )
+			    )
+			var _Format =     "#,##0" & Commas & Suffix & ";-#,##0" & Commas &Suffix 
+			return
+			IF (_Growth <> 0, 
+			    
+			"" &FORMAT(_Current-_LY, _Format)
+			    &  
+			        FORMAT(_Growth," | 0.0% ▲; | 0.0% ▼; ")& "YoY",blank())
+			```
+		lineageTag: d9f555d2-0245-4c3f-a07e-a1de45e8c563
+
+	measure '5_ Total Interactions Resolved in SLA' =
+			
+			CALCULATE(
+			    COUNTROWS('DataTable'),
+			    'DataTable'[Resolution Time (Days)] <= SELECTEDVALUE('DataTable'[SLA Threshold (Days)])
+			)
+		formatString: 0
+		lineageTag: a9cb06a6-0879-459c-a695-4df2d2b97e7d
+
+	measure '7_ Total Interactions Column Color' =
+			
+			VAR _X = SELECTEDVALUE('DataTable'[Resolution Time (Days)])
+			VAR _SLA = SELECTEDVALUE('DataTable'[SLA Threshold (Days)])
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        _X <= _SLA, [6_ Interaction Type Color],  -- Color for resolution time below 5 days
+			        "#D3D3D3"           -- Color for resolution time above 5 days
+			    )
+		lineageTag: 00ce9639-2283-4c3c-8c84-52a2494c97da
+
+	measure '_ Avg Resolution Time' = AVERAGE('DataTable'[Resolution Time (Days)])
+		lineageTag: 73b80f1f-bc59-4921-a240-7af8455a295c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '6_ Interaction Type Color' = ```
+			
+			    SWITCH(
+			        SELECTEDVALUE('DataTable'[Interaction Type]),
+			        "Calls", "#1F4098",
+			        "Chats", "#5CC09F",
+			        "Emails", "#61C2D9",
+			        "Escalations", "#ED7470",
+			        "#D3D3D3")
+			```
+		lineageTag: 98903e1e-d81b-4324-8d6b-0f818ad03807
+
+	measure '9_ Column Subtitle' =
+			
+			[5_ Total Interactions Resolved in SLA] & " " &SELECTEDVALUE('DataTable'[Interaction Type]) & " Resolved within SLA: " & SELECTEDVALUE('DataTable'[SLA Threshold (Days)]) & " Days"
+		lineageTag: 7c933855-5526-43da-a0d9-63624659027d
+
+	measure '_ Y Axis Max' =
+			
+			VAR _OverallMaxSalesRT =
+			    MAXX (  VALUES( 'DataTable'[Resolution Time (Days)] ), [1_ Total Interactions] )
+			VAR _Limitextender = 1.30
+			VAR _Yaxisupperlimit = _OverallMaxSalesRT * _Limitextender
+			RETURN
+			    _Yaxisupperlimit
+		lineageTag: 27521a13-221a-4bcc-9529-a1d3e3bceb4e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '8_ Column Title' = ```
+			
+			 SELECTEDVALUE('DataTable'[Interaction Type]) & " Resolution Time"
+			```
+		lineageTag: 7d77877d-7d17-418c-87df-efa21e8fe4ce
+
+	measure '_ Blank' = 0
+		formatString: 0
+		lineageTag: b46043d3-4823-4fcf-a953-a2dd906dcf8d
+
+	column 'Interaction ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 04909337-1449-4a0a-bd04-98f04e04c1c6
+		summarizeBy: count
+		sourceColumn: Interaction ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Interaction Type'
+		dataType: string
+		lineageTag: 2540f389-9337-45f3-b1e1-0bab9abed9e5
+		summarizeBy: none
+		sourceColumn: Interaction Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date Received'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 1f53c555-4eba-4027-bd8d-5ee1459a0b05
+		summarizeBy: none
+		sourceColumn: Date Received
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Date Resolved'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 4de84c58-5ffb-49a6-a174-021c9d81ee1c
+		summarizeBy: none
+		sourceColumn: Date Resolved
+
+		annotation SummarizationSetBy = Automatic
+
+	column Category
+		dataType: string
+		lineageTag: 23ed65c7-3e9f-45d9-aa20-620f0f3462f9
+		summarizeBy: none
+		sourceColumn: Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Resolution Time (Days)'
+		dataType: double
+		lineageTag: a813149e-65fa-4370-ba06-34f26a8321b8
+		summarizeBy: sum
+		sourceColumn: Resolution Time (Days)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SLA Threshold (Days)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 450054fb-dedf-476e-9418-66e971709c91
+		summarizeBy: sum
+		sourceColumn: SLA Threshold (Days)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Within SLA'
+		dataType: string
+		lineageTag: 97e899d5-9e22-44a0-ad0c-2331f04156cb
+		summarizeBy: none
+		sourceColumn: Within SLA
+
+		annotation SummarizationSetBy = Automatic
+
+	column Driver
+		dataType: string
+		lineageTag: 389aa47f-7aed-4130-a264-10e93a5b16b2
+		summarizeBy: none
+		sourceColumn: Driver
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DataTable = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\Injae\Downloads\Final_Resolution_Time_Dataset.csv"),[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Interaction ID", Int64.Type}, {"Interaction Type", type text}, {"Date Received", type date}, {"Date Resolved", type datetime}, {"Category", type text}, {"Resolution Time (Days)", type number}, {"SLA Threshold (Days)", Int64.Type}, {"Within SLA", type text}, {"Driver", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

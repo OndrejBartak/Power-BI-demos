@@ -1,0 +1,32 @@
+Define
+-- Calls Resolved Faster Than 5 Days
+MEASURE 'DataTable'[_Calls Resolved < 5 Days] =
+CALCULATE(
+    COUNTROWS('DataTable'),
+    'DataTable'[Interaction Type] = "Calls",
+    'DataTable'[Resolution Time (Days)] < 5
+)
+
+-- Chats Resolved Faster Than 5 Days
+MEASURE 'DataTable'[_Chats Resolved < 5 Days] =
+CALCULATE(
+    COUNTROWS('DataTable'),
+    'DataTable'[Interaction Type] = "Chats",
+    'DataTable'[Resolution Time (Days)] < 5
+)
+
+-- Emails Resolved Faster Than 5 Days
+MEASURE 'DataTable'[_Emails Resolved < 5 Days] =
+CALCULATE(
+    COUNTROWS('DataTable'),
+    'DataTable'[Interaction Type] = "Emails",
+    'DataTable'[Resolution Time (Days)] < 5
+)
+
+-- Escalations Resolved Faster Than 5 Days
+MEASURE 'DataTable'[_Escalations Resolved < 5 Days] =
+CALCULATE(
+    COUNTROWS('DataTable'),
+    'DataTable'[Interaction Type] = "Escalations",
+    'DataTable'[Resolution Time (Days)] < 5
+)

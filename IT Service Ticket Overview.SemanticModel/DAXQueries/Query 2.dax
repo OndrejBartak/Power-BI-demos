@@ -1,0 +1,100 @@
+Define
+MEASURE 'DataTable'[_Reference Chats] =
+VAR _Current = [_Total Chats]
+VAR _LY = [_Total Chats PY]
+VAR _Growth = DIVIDE(_Current - _LY, _LY)
+VAR NumOfDigits = IFERROR(LEN(CONVERT(INT(_Current), STRING)), 0)
+VAR Suffix =
+    ".0" &
+    SWITCH(
+        TRUE(),
+        NumOfDigits >= 13, "T",
+        NumOfDigits >= 10, "B",
+        NumOfDigits >= 7, "M",
+        NumOfDigits >= 4, "K"
+    )
+VAR Commas =
+    REPT(
+        ",",
+        SWITCH(
+            TRUE(),
+            NumOfDigits >= 13, "4",
+            NumOfDigits >= 10, "3",
+            NumOfDigits >= 7, "2",
+            NumOfDigits >= 4, "1"
+        )
+    )
+VAR _Format = "#,##0" & Commas & Suffix & ";-#,##0" & Commas & Suffix
+RETURN
+    IF(
+        _Growth <> 0,
+        "" & FORMAT(_Current - _LY, _Format) &
+        FORMAT(_Growth, " | 0.0% ▲; | 0.0% ▼; ") & " YoY",
+        BLANK()
+    )
+MEASURE 'DataTable'[_Reference Emails] =
+VAR _Current = [_Total Emails]
+VAR _LY = [_Total Emails PY]
+VAR _Growth = DIVIDE(_Current - _LY, _LY)
+VAR NumOfDigits = IFERROR(LEN(CONVERT(INT(_Current), STRING)), 0)
+VAR Suffix =
+    ".0" &
+    SWITCH(
+        TRUE(),
+        NumOfDigits >= 13, "T",
+        NumOfDigits >= 10, "B",
+        NumOfDigits >= 7, "M",
+        NumOfDigits >= 4, "K"
+    )
+VAR Commas =
+    REPT(
+        ",",
+        SWITCH(
+            TRUE(),
+            NumOfDigits >= 13, "4",
+            NumOfDigits >= 10, "3",
+            NumOfDigits >= 7, "2",
+            NumOfDigits >= 4, "1"
+        )
+    )
+VAR _Format = "#,##0" & Commas & Suffix & ";-#,##0" & Commas & Suffix
+RETURN
+    IF(
+        _Growth <> 0,
+        "" & FORMAT(_Current - _LY, _Format) &
+        FORMAT(_Growth, " | 0.0% ▲; | 0.0% ▼; ") & " YoY",
+        BLANK()
+    )
+MEASURE 'DataTable'[_Reference Escalations] =
+VAR _Current = [_Total Escalations]
+VAR _LY = [_Total Escalations PY]
+VAR _Growth = DIVIDE(_Current - _LY, _LY)
+VAR NumOfDigits = IFERROR(LEN(CONVERT(INT(_Current), STRING)), 0)
+VAR Suffix =
+    ".0" &
+    SWITCH(
+        TRUE(),
+        NumOfDigits >= 13, "T",
+        NumOfDigits >= 10, "B",
+        NumOfDigits >= 7, "M",
+        NumOfDigits >= 4, "K"
+    )
+VAR Commas =
+    REPT(
+        ",",
+        SWITCH(
+            TRUE(),
+            NumOfDigits >= 13, "4",
+            NumOfDigits >= 10, "3",
+            NumOfDigits >= 7, "2",
+            NumOfDigits >= 4, "1"
+        )
+    )
+VAR _Format = "#,##0" & Commas & Suffix & ";-#,##0" & Commas & Suffix
+RETURN
+    IF(
+        _Growth <> 0,
+        "" & FORMAT(_Current - _LY, _Format) &
+        FORMAT(_Growth, " | 0.0% ▲; | 0.0% ▼; ") & " YoY",
+        BLANK()
+    )
